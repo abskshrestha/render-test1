@@ -7,6 +7,8 @@ let notes = [
     { id: "3", content: "GET and POST are the most important methods of HTTP protocol", important: true }
 ];
 
+app.use(express.static('dist'))
+
 const cors = require('cors')
 
 app.use(cors())
