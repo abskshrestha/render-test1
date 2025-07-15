@@ -1,0 +1,10 @@
+POST http://localhost:3001/api/notes
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkdpbGwiLCJpZCI6IjY4NzY2ZjI3YTZjMThlOWJlODg2NjVhMiIsImlhdCI6MTc1MjU5NTkwMH0.mmY38sAMkIkvNujqfq3c4-L06zJyP3ew5cwSVyTIWO0
+
+{
+    "content": "Single page apps use token based auth",
+    "important": false,
+    "userId":"68766f27a6c18e9be88665a2"
+}
+
